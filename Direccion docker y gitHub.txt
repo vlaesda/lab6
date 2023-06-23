@@ -1,0 +1,14 @@
+vlaesda/lab6-docker
+
+PS C:\Users\vlaes> docker images
+REPOSITORY               TAG       IMAGE ID       CREATED          SIZE
+vlaesda/lab6-docker      v1        beebe1e03130   58 minutes ago   1.37GB
+python                   3.7       6522f63bc240   9 days ago       994MB
+ubuntu                   latest    99284ca6cea0   2 weeks ago      77.8MB
+hello-world              latest    9c7a54a9a43c   7 weeks ago      13.3kB
+docker/getting-started   latest    3e4394f6b72f   6 months ago     47MB
+rocker/tidyverse         3.6.1     5c4c75978566   3 years ago      2.1GB
+rocker/tidyverse         3.6       8e187bda8bbb   3 years ago      2.1GB
+
+
+https://github.com/vlaesda/lab6

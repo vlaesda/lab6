@@ -1,0 +1,15 @@
+# Imagen base
+FROM python:3.7
+
+# Copiar los archivos de los notebooks al directorio /home en la imagen
+COPY pi-solution.ipynb /home/
+COPY kmer-solution.ipynb /home/
+
+# Instalar los paquetes necesarios
+RUN pip install notebook numpy numba
+
+# Establecer el directorio de trabajo
+WORKDIR /home
+
+# Comando por defecto al ejecutar el contenedor
+CMD ["ipython", "kmer-solution.ipynb"]
